@@ -1,0 +1,27 @@
+.nav{
+    background-color: rgb(243 243 243);
+    height: 40px;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position:fixed;
+    z-index: 10000;
+
+}
+.nav-items{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.nav-item{
+margin-right: 50px;
+font-size: 20px;
+}
+a:link,a:visited {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+a:hover, a:active {
+    color: black;
+}
