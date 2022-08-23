@@ -20,7 +20,7 @@ const About = () => {
                 <p className='a-desc'>
                     At the moment, I'm a Full Stack developer. I've worked on personel and professional projects like end of studies project, you can take a look on my projects in the next section.
                     I care deeply about creating world-class, useful, and beautiful products that help people and make a difference. I can be as involved in your project as you need me to be.
-                    If you’re interested in my work, send me connection on LinkedIn or drop an Email (contact section)
+                    If you’re interested in my work, send me connection on LinkedIn or drop an Email (contact section).
                 </p>
 
             </div>
