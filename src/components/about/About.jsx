@@ -18,7 +18,7 @@ const About = () => {
                 Software engineer graduated from North American Private University of Sfax. 
                 </p>
                 <p className='a-desc'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eius omnis maxime officia, exercitationem, sed possimus similique nobis accusantium dolores odit reiciendis necessitatibus rem at! In doloremque rerum nemo? Velit.
+                    I'am Masmoudi Omar, a software engineer 
                 </p>
 
             </div>
