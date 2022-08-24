@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/omar-masmoudi/static/css/main.f12e3233.css",
+    "main.js": "/omar-masmoudi/static/js/main.3482db4c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/omar-masmoudi/static/js/787.28cb0dcd.chunk.js",
+    "static/media/demo.mp4": "/omar-masmoudi/static/media/demo.b5ba9c6bac67176c6327.mp4",
+    "static/media/p3.png": "/omar-masmoudi/static/media/p3.2377d7b3f47827910691.png",
+    "static/media/pdp.jpeg": "/omar-masmoudi/static/media/pdp.3e0c118b25f8e32cee67.jpeg",
+    "static/media/tel-g.png": "/omar-masmoudi/static/media/tel-g.f4c3eeeb7e952c6253f9.png",
+    "index.html": "/omar-masmoudi/index.html",
+    "main.f12e3233.css.map": "/omar-masmoudi/static/css/main.f12e3233.css.map",
+    "main.3482db4c.js.map": "/omar-masmoudi/static/js/main.3482db4c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/omar-masmoudi/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f12e3233.css",
+    "static/js/main.3482db4c.js"
+  ]
+}
