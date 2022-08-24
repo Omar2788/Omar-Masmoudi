@@ -6,6 +6,7 @@ import "./certificate.css"
 const Certificate = () => {
   return (
     <section id='certif'>
+      <div className="l-bg"></div>
       <div className='l'>
           <h1 className='l-title'>Certificate</h1>
         <Certification/>

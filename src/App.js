@@ -9,6 +9,7 @@ import {
 }   
 from 'react-router-dom';  
 import Navbar from "./components/navbar/Navbar";
+import Licence from "./components/ProjetLicence/Licence";
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
       <Intro/>
       <About/>
       <ProjectList/>
+      <Licence/>
       <Certificate/>
       <Contact/>
     </div>

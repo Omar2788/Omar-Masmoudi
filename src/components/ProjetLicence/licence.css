@@ -1,0 +1,27 @@
+.lef{
+    position: relative;
+    height: 90vh;
+}
+.l-bg{
+    width: 20px;
+    height: 100%;
+    background-color: #F4A460;
+    position: absolute;
+    
+}
+.l-left{
+    flex: 1;
+}
+.video{
+    border-radius: 10px;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.c-info{
+    text-align: justify;
+    width: 90%;
+}
