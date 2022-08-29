@@ -20,8 +20,31 @@
         justify-content: center;
         flex-direction: column;
 }
-
+.videoo{
+    width:800px;
+    height:500px;
+}
 .c-info{
     text-align: justify;
     width: 90%;
+}
+@media screen and (max-width: 480px){
+    .lef{
+        height: 200%;
+    }
+    .c-info{
+        text-align: justify;
+        width: 100%; 
+    }
+    .videoo{
+        width: 100%;
+        margin-top: 20px;
+        height: 100%;
+    }
+    .c-title{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
 }

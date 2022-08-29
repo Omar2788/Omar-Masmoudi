@@ -32,13 +32,33 @@
     height: 100%;
     object-fit: cover;
 }
-.a-title{
-    font-weight: 400;
-}
+
 .a-sub{
     margin: 20px 0px;
 }
 .a-desc{
     font-weight: 300;
     text-align: justify;
+}
+@media screen and (max-width: 480px) {
+    .a{
+        flex-direction:column;
+        text-align: center;
+       
+    }
+    .a-left{
+        width: 100%;
+    }
+    .a-card{
+        height: 30vh;
+    }
+    .a-card.bg{
+        height: 30vh;
+    }
+     .a-right{
+        padding: 10px;
+     }
+     .a-title{
+        font-size: 30px;
+     }
 }

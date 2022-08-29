@@ -1,5 +1,5 @@
 .c{
-    height: 100vh;
+    height: 80vh;
     position: relative;
 }
 .c-bg{
@@ -77,4 +77,47 @@ button{
 }
 button:hover{
     transform: scale(1.2); 
+}
+
+@media screen and (max-width: 480px) {
+    .c{
+        height: 100vh;
+        position: relative;
+    }
+    .c-wrapper{
+        flex-direction:column;
+        padding:0px 50px;
+    }
+    .c-title{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .c-info-item{
+        margin: 20px 0px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .c-desc{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;  
+        text-align: justify;      
+    }
+    form{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 100%;
+    }
+    .c-icon{
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+    button{
+        padding: 10px;
+    }
 }

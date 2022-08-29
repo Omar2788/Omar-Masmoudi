@@ -13,7 +13,7 @@ export const projects = [
       id: 3,
       img: "https://scontent.ftun15-1.fna.fbcdn.net/v/t1.15752-9/299766293_637361190900893_3428297899447439231_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=r4kkSmd_XeQAX9oF1UP&_nc_ht=scontent.ftun15-1.fna&oh=03_AVIEKkEUHpRGBWThpWy7SfI4RnbMRvziLf_1zMtQWbnzcA&oe=63284E2A",
       link: "",
-    },
+    },/*
     {
       id: 4,
       img: "",
@@ -28,5 +28,5 @@ export const projects = [
       id: 6,
       img: "",
       link: "",
-    },
+    },*/
   ];

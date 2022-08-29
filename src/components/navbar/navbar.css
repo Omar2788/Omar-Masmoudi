@@ -28,3 +28,19 @@ a:hover, a:active {
     color: black;
     font-weight: bold;
 }
+
+@media screen and (max-width: 480px){
+    .nav{
+       width: 100%;
+       position: fixed;
+       z-index: 9999;
+       height: 20px;
+    }
+    .nav-item{
+        margin-right: 10px;
+        font-size: x-small;
+    }
+    .nav-items{
+        justify-content: center;
+    }
+}

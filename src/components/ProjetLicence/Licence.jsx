@@ -19,7 +19,7 @@ const Licence = () => {
                     </div>
                 </div>
                 <div className="video">
-                    <video width="800" height="500" controls="controls" autoPlay={true}>
+                    <video className='videoo' controls="controls" autoPlay={true}>
                     <source src={video}  type="video/mp4"/>
                     </video>
                 </div>

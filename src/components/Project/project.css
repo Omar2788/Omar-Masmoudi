@@ -34,3 +34,18 @@
 .p:hover .p-img{
     transform: translateY(-100%);
 }
+
+@media screen and (max-width: 480px) {
+    .p{
+        width: 40%;
+        height: 15vh;
+        margin: 10px;
+    }
+    .p-browser{
+        height: 10px;
+    }
+    .p-circle{
+        width: 4px;
+        height: 4px;
+    }
+}

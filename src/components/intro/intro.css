@@ -66,3 +66,39 @@
 .i-desc{
     text-align: justify;
 }
+@media screen and (max-width: 480px) {
+    .i{
+        height: 65vh;
+        flex-direction:column;
+    }
+    .i-left-wrapper{
+        justify-content: center;
+        height: 100%;
+    }
+    .i-right{
+        position: inherit;
+        height: 10%;
+    }.i-bg{
+        width: 60%;
+        height: 35%;
+    }.i-img{
+        width: 60%;
+        height: 35%;
+        top: 20px;  
+    }
+    .i-intro{
+        font-size: 20px;
+        text-align: left;
+        font-weight: 200;
+    }
+    .i-name{
+        z-index: 999;
+    }
+    .i-title{
+        margin-top: 10px;
+        z-index: 999;
+    }
+    .i-desc{
+        margin-top: 20px;
+    }
+}
