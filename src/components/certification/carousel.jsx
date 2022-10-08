@@ -1,40 +1,60 @@
 import { Carousel } from '@sefailyasoz/react-carousel'
 import "./carousel.css"
+import c1 from "../../img/Jquery.jpg";
+import c2 from "../../img/badge1.png";
+import c3 from "../../img/awsCertif.png";
+import c4 from "../../img/datacamp.jpg";
+import c5 from "../../img/java.png";
+import c6 from "../../img/python.jpg";
+import c7 from "../../img/pythonCore.jpg";
+import c8 from "../../img/JavaScript.png";
+import c9 from "../../img/NodeJs.jpg";
+
 const Certification = () => {
 
 const CarouselData = [
   {
     headerText: null,
     subText: null,
-    image: 'https://media-exp1.licdn.com/dms/image/C4D22AQEqqRj09axTdQ/feedshare-shrink_2048_1536/0/1639680073955?e=1663804800&v=beta&t=nck1UERI1EaKqQG-LtWTtoNqemyCamQ_3ZSXpXn-lko',
+    image: c4,
   },
   {
     headerText: null,
     subText: null,
-    image: 'https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~GSP9KY4CXNWL/CERTIFICATE_LANDING_PAGE~GSP9KY4CXNWL.jpeg',
+    image: c3,
   },
   {
     headerText: null,
     subText: null,
-    image: 'https://media-exp1.licdn.com/dms/image/C4E22AQHAxtyncJD95w/feedshare-shrink_800/0/1620470561219?e=1663804800&v=beta&t=EM9jPyiAgmwArRi8grDvtRI2zIkAi2bScE_il7MgB9w',
+    image: c1,
   },
   {
     
-    image: 'https://media-exp1.licdn.com/dms/image/C4E22AQHVf81UmuRMfg/feedshare-shrink_800/0/1620160339532?e=1663804800&v=beta&t=atOFcDb6faMEt_BPSinGmF-2buBIaIVs9VEaw5nRaGc',
+    image: c5,
   },
   {
     
-    image: 'https://media-exp1.licdn.com/dms/image/C4E22AQGQap6_ambS-g/feedshare-shrink_2048_1536/0/1619393278318?e=1663804800&v=beta&t=gbcqFFI140rIqjq4ENjYOidZ1dldTPZb-EBGRzzLU3k',
+    image: c6,
   },
   {
     headerText: 'Badge from IBM',
     subText: null,
-    image: 'https://scontent.ftun14-1.fna.fbcdn.net/v/t1.15752-9/300817407_401099382155719_1944027427041436373_n.png?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=G5NuhM6uMzoAX_K4Wnv&_nc_ht=scontent.ftun14-1.fna&oh=03_AVLizCiLx_mmE78jSIpUHQQfE440q_MAH4_s_0Xr95E0bw&oe=632B1FA0',
+    image: c2,
   },
   {
     headerText: null,
     subText: null,
-    image: 'https://media-exp1.licdn.com/dms/image/C4E22AQFYgyPe06KOaQ/feedshare-shrink_2048_1536/0/1624229944472?e=1663804800&v=beta&t=fjBlWP-5CT0-UiAMmPRB58AVwEAwBw8vbi7PpjjZ86w',
+    image: c8,
+  },
+  {
+    headerText: null,
+    subText: null,
+    image: c7,
+  },
+  {
+    headerText: null,
+    subText: null,
+    image: c9,
   },
 ]
   return    <Carousel
